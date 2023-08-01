@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
 }
+
 #hero-content {
   width: 900px;
   background-color: rgba(51, 47, 47, 0.8);
@@ -45,4 +46,15 @@
 
 #hero-content a:hover {
   background-color: rgb(255, 238, 0);
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination img {
+  height: 200px;
 }
