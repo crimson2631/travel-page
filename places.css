@@ -29,7 +29,6 @@ main li img {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   color: rgb(77, 77, 77);
 }
 
