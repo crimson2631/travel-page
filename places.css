@@ -27,8 +27,31 @@ main li img {
 
 .item-content {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(77, 77, 77);
+}
+
+.item-content p {
+  flex-grow: 2;
 }
 
 .item-content a {
   text-decoration: none;
+  color: rgb(7, 197, 197);
+  font-size: bold;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.item-content a:hover {
+  position: absolute;
+  background-color: rgba(0, 255, 255, 0.238);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
